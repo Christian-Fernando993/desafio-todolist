@@ -26,12 +26,11 @@ export function CreateNewTask() {
   return (
     <form 
         onSubmit={handleCreateNewTask}
-        className="flex justify-center w-full gap-2 -mt-6">
+        className="flex justify-center w-full gap-2 -mt-8">
       <input
         name='task'
         className="flex items-center p-4 bg-gray-500 border-2 border-gray-700 focus:border-purple-dark focus:text-white rounded-lg w-full max-w-input-new-task text-gray-300 text-base/leading-5 font-normal"
         placeholder="Adicione uma nova tarefa"
-        
         value={newTask}
         onChange={handleNewTaskChange}
         onInvalid={handleNewCommentInvalid}

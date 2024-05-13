@@ -14,6 +14,8 @@ const config: Config = {
         'blue': '#4EA8DE',
         'purple-dark': '#5E60CE',
         'purple': '#8284FA',
+        'teste': 'rgba(30, 111, 159, 0.2)',
+
         // Tons de Cinza
         'gray-100': '#F2F2F2',
         'gray-200': '#D9D9D9',
